@@ -1,0 +1,16 @@
+//Create destination
+POST http://34.125.71.166:4000/destination
+Content-type: application/json
+
+{
+    "title": "Lofoten surfecenter",
+    "description": "Her kan du surfe og kose deg så mye du vil. Fantastiske turmuligheter.",
+    "lat": 67.993149,
+    "lng": 13.639707
+    
+}
+###
+GET http://34.125.71.166:4000/destination
+
+###
+GET http://34.125.71.166:4000/user
